@@ -24,6 +24,7 @@
 .button-search {
     background-color: #025fb1; 
     border: none;
+    cursor: pointer;
     color: rgb(255, 255, 255);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     text-align: center;
@@ -42,6 +43,7 @@
 
   .bttn {
     background-color: #0275d8; 
+    cursor: pointer;
     color: rgb(240, 240, 240);
     padding: 15px 32px;
     width: 250px;
@@ -57,6 +59,7 @@
     background-color: #0275d8; 
     color: rgb(240, 240, 240);
     padding: 8px 22px;
+    cursor: pointer;
     display: inline;
     text-align: center;
     justify-content: center;
@@ -84,16 +87,16 @@
   }
   
   .directionFooter {
-    background-color: #0275d8; 
-    color: rgb(240, 240, 240);
-    padding: 15px 32px;
+    background-color: #ffffff00; 
+    color: rgba(255, 255, 255, 0);
+    padding: 15px 20px;
     width: 1855px;
     text-align: center;
     display: table;
     margin: 0 auto;
     margin: 0 auto;
     block-size: auto;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0), 0 6px 20px 0 rgba(255, 255, 255, 0);
     text-decoration: none;
   }
   .directionDescription {
@@ -163,7 +166,7 @@ img.center {
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(255, 246, 246);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-nav > li > .dropdown-menu { background-color: #0275d8; }
